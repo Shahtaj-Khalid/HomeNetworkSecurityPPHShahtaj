@@ -338,8 +338,7 @@
 				4DD825312114991E004A7368 /* src */,
 				4DD8255B2114991E004A7368 /* Mobile SNMP++-Prefix.pch */,
 			);
-			name = "Mobile SNMP++";
-			path = "../../../../Downloads/Mobile SNMP++";
+			path = "Mobile SNMP++";
 			sourceTree = "<group>";
 		};
 		4DD8250B2114991E004A7368 /* include */ = {
