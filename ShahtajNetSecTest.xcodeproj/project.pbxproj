@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D1EBFA2211EC7A200F1B648 /* DatabaseCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EBFA1211EC7A200F1B648 /* DatabaseCalls.swift */; };
+		4D2139D52119E9E100163148 /* MMLANScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139BB2119E9E100163148 /* MMLANScanner.m */; };
+		4D2139D62119E9E100163148 /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139C02119E9E100163148 /* MACOperation.m */; };
+		4D2139D72119E9E100163148 /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139C12119E9E100163148 /* NetworkCalculator.m */; };
+		4D2139D82119E9E100163148 /* LANProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139C32119E9E100163148 /* LANProperties.m */; };
+		4D2139D92119E9E100163148 /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139C42119E9E100163148 /* PingOperation.m */; };
+		4D2139DA2119E9E100163148 /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139C72119E9E100163148 /* MacFinder.m */; };
+		4D2139DB2119E9E100163148 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139CF2119E9E100163148 /* SimplePing.m */; };
+		4D2139DC2119E9E100163148 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139D12119E9E100163148 /* MMDevice.m */; };
+		4D2139DD2119E9E100163148 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2139D42119E9E100163148 /* data.plist */; };
+		4D2139DF2119EAE300163148 /* LanScannerSetup_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2139DE2119EAE300163148 /* LanScannerSetup_VC.swift */; };
+		4DD8241D21147F19004A7368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8241C21147F19004A7368 /* AppDelegate.swift */; };
+		4DD8241F21147F19004A7368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8241E21147F19004A7368 /* ViewController.swift */; };
+		4DD8242221147F19004A7368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8242021147F19004A7368 /* Main.storyboard */; };
+		4DD8242521147F19004A7368 /* ShahtajNetSecTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8242321147F19004A7368 /* ShahtajNetSecTest.xcdatamodeld */; };
+		4DD8242721147F1A004A7368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8242621147F1A004A7368 /* Assets.xcassets */; };
+		4DD8242A21147F1A004A7368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8242821147F1A004A7368 /* LaunchScreen.storyboard */; };
+		4DD8243221148011004A7368 /* StaticSnmpFinalLib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8243121148011004A7368 /* StaticSnmpFinalLib */; };
+		4DD8243E21149701004A7368 /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8243D21149701004A7368 /* XISMobile_SNMP_PP.mm */; };
+		4DD8255C2114991E004A7368 /* Makefile.hpux11 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD825322114991E004A7368 /* Makefile.hpux11 */; };
+		4DD8255D2114991E004A7368 /* msgqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825332114991E004A7368 /* msgqueue.cpp */; };
+		4DD8255E2114991E004A7368 /* v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825342114991E004A7368 /* v3.cpp */; };
+		4DD8255F2114991E004A7368 /* gauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825352114991E004A7368 /* gauge.cpp */; };
+		4DD825602114991E004A7368 /* oid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825362114991E004A7368 /* oid.cpp */; };
+		4DD825612114991E004A7368 /* md5c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825372114991E004A7368 /* md5c.cpp */; };
+		4DD825622114991E004A7368 /* Makefile.bcc in Resources */ = {isa = PBXBuildFile; fileRef = 4DD825382114991E004A7368 /* Makefile.bcc */; };
+		4DD825632114991E004A7368 /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825392114991E004A7368 /* log.cpp */; };
+		4DD825642114991E004A7368 /* snmpmsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8253A2114991E004A7368 /* snmpmsg.cpp */; };
+		4DD825652114991E004A7368 /* idea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8253B2114991E004A7368 /* idea.cpp */; };
+		4DD825662114991E004A7368 /* Makefile.iOS_Sim in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8253C2114991E004A7368 /* Makefile.iOS_Sim */; };
+		4DD825672114991E004A7368 /* vb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8253D2114991E004A7368 /* vb.cpp */; };
+		4DD825682114991E004A7368 /* common.mk in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8253E2114991E004A7368 /* common.mk */; };
+		4DD825692114991E004A7368 /* Makefile.linux in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8253F2114991E004A7368 /* Makefile.linux */; };
+		4DD8256A2114991E004A7368 /* pdu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825402114991E004A7368 /* pdu.cpp */; };
+		4DD8256B2114991E004A7368 /* Makefile.solaris in Resources */ = {isa = PBXBuildFile; fileRef = 4DD825412114991E004A7368 /* Makefile.solaris */; };
+		4DD8256C2114991E004A7368 /* notifyqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825422114991E004A7368 /* notifyqueue.cpp */; };
+		4DD8256D2114991E004A7368 /* ctr64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825432114991E004A7368 /* ctr64.cpp */; };
+		4DD8256E2114991E004A7368 /* Makefile.iOS_armv7 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD825442114991E004A7368 /* Makefile.iOS_armv7 */; };
+		4DD8256F2114991E004A7368 /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825452114991E004A7368 /* sha.cpp */; };
+		4DD825702114991E004A7368 /* Makefile.iOS_armv6 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD825462114991E004A7368 /* Makefile.iOS_armv6 */; };
+		4DD825712114991E004A7368 /* IPv6Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825472114991E004A7368 /* IPv6Utility.cpp */; };
+		4DD825722114991E004A7368 /* Makefile.aix5 in Resources */ = {isa = PBXBuildFile; fileRef = 4DD825482114991E004A7368 /* Makefile.aix5 */; };
+		4DD825732114991E004A7368 /* eventlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825492114991E004A7368 /* eventlist.cpp */; };
+		4DD825742114991E004A7368 /* counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8254A2114991E004A7368 /* counter.cpp */; };
+		4DD825752114991E004A7368 /* msec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8254B2114991E004A7368 /* msec.cpp */; };
+		4DD825762114991E004A7368 /* Makefile.OSX in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8254C2114991E004A7368 /* Makefile.OSX */; };
+		4DD825772114991E004A7368 /* Makefile.gcc_solaris in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8254D2114991E004A7368 /* Makefile.gcc_solaris */; };
+		4DD825782114991E004A7368 /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8254E2114991E004A7368 /* address.cpp */; };
+		4DD825792114991E004A7368 /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8254F2114991E004A7368 /* target.cpp */; };
+		4DD8257A2114991E004A7368 /* Makefile.dunix in Resources */ = {isa = PBXBuildFile; fileRef = 4DD825502114991E004A7368 /* Makefile.dunix */; };
+		4DD8257B2114991E004A7368 /* timetick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825512114991E004A7368 /* timetick.cpp */; };
+		4DD8257C2114991E004A7368 /* octet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825522114991E004A7368 /* octet.cpp */; };
+		4DD8257D2114991E004A7368 /* auth_priv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825532114991E004A7368 /* auth_priv.cpp */; };
+		4DD8257E2114991E004A7368 /* integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825542114991E004A7368 /* integer.cpp */; };
+		4DD8257F2114991E004A7368 /* usm_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825552114991E004A7368 /* usm_v3.cpp */; };
+		4DD825802114991E004A7368 /* reentrant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825562114991E004A7368 /* reentrant.cpp */; };
+		4DD825812114991E004A7368 /* asn1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825572114991E004A7368 /* asn1.cpp */; };
+		4DD825822114991E004A7368 /* eventlistholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825582114991E004A7368 /* eventlistholder.cpp */; };
+		4DD825832114991E004A7368 /* mp_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825592114991E004A7368 /* mp_v3.cpp */; };
+		4DD825842114991E004A7368 /* uxsnmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8255A2114991E004A7368 /* uxsnmp.cpp */; };
+		4DD825872114A3F7004A7368 /* SNMPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD825862114A3F7004A7368 /* SNMPController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D1EBFA1211EC7A200F1B648 /* DatabaseCalls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseCalls.swift; sourceTree = "<group>"; };
+		4D2139BB2119E9E100163148 /* MMLANScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLANScanner.m; sourceTree = "<group>"; };
+		4D2139BC2119E9E100163148 /* NetworkCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCalculator.h; sourceTree = "<group>"; };
+		4D2139BD2119E9E100163148 /* MACOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACOperation.h; sourceTree = "<group>"; };
+		4D2139BE2119E9E100163148 /* LANProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LANProperties.h; sourceTree = "<group>"; };
+		4D2139BF2119E9E100163148 /* PingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingOperation.h; sourceTree = "<group>"; };
+		4D2139C02119E9E100163148 /* MACOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACOperation.m; sourceTree = "<group>"; };
+		4D2139C12119E9E100163148 /* NetworkCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkCalculator.m; sourceTree = "<group>"; };
+		4D2139C22119E9E100163148 /* MMLANScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLANScanner.h; sourceTree = "<group>"; };
+		4D2139C32119E9E100163148 /* LANProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LANProperties.m; sourceTree = "<group>"; };
+		4D2139C42119E9E100163148 /* PingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingOperation.m; sourceTree = "<group>"; };
+		4D2139C72119E9E100163148 /* MacFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacFinder.m; sourceTree = "<group>"; };
+		4D2139C92119E9E100163148 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		4D2139CA2119E9E100163148 /* if_ether.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		4D2139CB2119E9E100163148 /* if_arp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		4D2139CC2119E9E100163148 /* MacFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacFinder.h; sourceTree = "<group>"; };
+		4D2139CE2119E9E100163148 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		4D2139CF2119E9E100163148 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		4D2139D12119E9E100163148 /* MMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDevice.m; sourceTree = "<group>"; };
+		4D2139D22119E9E100163148 /* MMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDevice.h; sourceTree = "<group>"; };
+		4D2139D42119E9E100163148 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		4D2139DE2119EAE300163148 /* LanScannerSetup_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanScannerSetup_VC.swift; sourceTree = "<group>"; };
+		4DD8241921147F19004A7368 /* ShahtajNetSecTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShahtajNetSecTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD8241C21147F19004A7368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DD8241E21147F19004A7368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4DD8242121147F19004A7368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DD8242421147F19004A7368 /* ShahtajNetSecTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShahtajNetSecTest.xcdatamodel; sourceTree = "<group>"; };
+		4DD8242621147F1A004A7368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DD8242921147F1A004A7368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DD8242B21147F1A004A7368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD8243121148011004A7368 /* StaticSnmpFinalLib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StaticSnmpFinalLib; sourceTree = "<group>"; };
+		4DD824332114802C004A7368 /* libStaticSnmpFinalLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libStaticSnmpFinalLib.a; sourceTree = "<group>"; };
+		4DD8243B211496ED004A7368 /* XISMobile_SNMP_PP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XISMobile_SNMP_PP.h; sourceTree = "<group>"; };
+		4DD8243C21149700004A7368 /* ShahtajNetSecTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShahtajNetSecTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		4DD8243D21149701004A7368 /* XISMobile_SNMP_PP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XISMobile_SNMP_PP.mm; sourceTree = "<group>"; };
+		4DD8243F21149737004A7368 /* XIS_SNMPDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIS_SNMPDefinitions.h; sourceTree = "<group>"; };
+		4DD8250D2114991E004A7368 /* oid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
+		4DD8250E2114991E004A7368 /* vb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vb.h; sourceTree = "<group>"; };
+		4DD8250F2114991E004A7368 /* gauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauge.h; sourceTree = "<group>"; };
+		4DD825102114991E004A7368 /* notifyqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notifyqueue.h; sourceTree = "<group>"; };
+		4DD825112114991E004A7368 /* pdu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdu.h; sourceTree = "<group>"; };
+		4DD825122114991E004A7368 /* ctr64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctr64.h; sourceTree = "<group>"; };
+		4DD825132114991E004A7368 /* counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = counter.h; sourceTree = "<group>"; };
+		4DD825142114991E004A7368 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		4DD825152114991E004A7368 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		4DD825162114991E004A7368 /* IPv6Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPv6Utility.h; sourceTree = "<group>"; };
+		4DD825172114991E004A7368 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		4DD825182114991E004A7368 /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
+		4DD825192114991E004A7368 /* uxsnmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uxsnmp.h; sourceTree = "<group>"; };
+		4DD8251A2114991E004A7368 /* smival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smival.h; sourceTree = "<group>"; };
+		4DD8251B2114991E004A7368 /* timetick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timetick.h; sourceTree = "<group>"; };
+		4DD8251C2114991E004A7368 /* config_snmp_pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_snmp_pp.h; sourceTree = "<group>"; };
+		4DD8251D2114991E004A7368 /* reentrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reentrant.h; sourceTree = "<group>"; };
+		4DD8251E2114991E004A7368 /* collect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collect.h; sourceTree = "<group>"; };
+		4DD8251F2114991E004A7368 /* smi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smi.h; sourceTree = "<group>"; };
+		4DD825202114991E004A7368 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		4DD825212114991E004A7368 /* snmperrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmperrs.h; sourceTree = "<group>"; };
+		4DD825222114991E004A7368 /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target.h; sourceTree = "<group>"; };
+		4DD825232114991E004A7368 /* oid_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oid_def.h; sourceTree = "<group>"; };
+		4DD825242114991E004A7368 /* octet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octet.h; sourceTree = "<group>"; };
+		4DD825252114991E004A7368 /* snmpmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmpmsg.h; sourceTree = "<group>"; };
+		4DD825262114991E004A7368 /* snmp_pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmp_pp.h; sourceTree = "<group>"; };
+		4DD825272114991E004A7368 /* mp_v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp_v3.h; sourceTree = "<group>"; };
+		4DD825282114991E004A7368 /* eventlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventlist.h; sourceTree = "<group>"; };
+		4DD825292114991E004A7368 /* auth_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_priv.h; sourceTree = "<group>"; };
+		4DD8252A2114991E004A7368 /* usm_v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usm_v3.h; sourceTree = "<group>"; };
+		4DD8252B2114991E004A7368 /* integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = integer.h; sourceTree = "<group>"; };
+		4DD8252C2114991E004A7368 /* msec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msec.h; sourceTree = "<group>"; };
+		4DD8252D2114991E004A7368 /* msgqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgqueue.h; sourceTree = "<group>"; };
+		4DD8252E2114991E004A7368 /* eventlistholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventlistholder.h; sourceTree = "<group>"; };
+		4DD8252F2114991E004A7368 /* v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v3.h; sourceTree = "<group>"; };
+		4DD825302114991E004A7368 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		4DD825322114991E004A7368 /* Makefile.hpux11 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.hpux11; sourceTree = "<group>"; };
+		4DD825332114991E004A7368 /* msgqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msgqueue.cpp; sourceTree = "<group>"; };
+		4DD825342114991E004A7368 /* v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v3.cpp; sourceTree = "<group>"; };
+		4DD825352114991E004A7368 /* gauge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauge.cpp; sourceTree = "<group>"; };
+		4DD825362114991E004A7368 /* oid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oid.cpp; sourceTree = "<group>"; };
+		4DD825372114991E004A7368 /* md5c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5c.cpp; sourceTree = "<group>"; };
+		4DD825382114991E004A7368 /* Makefile.bcc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.bcc; sourceTree = "<group>"; };
+		4DD825392114991E004A7368 /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
+		4DD8253A2114991E004A7368 /* snmpmsg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snmpmsg.cpp; sourceTree = "<group>"; };
+		4DD8253B2114991E004A7368 /* idea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = idea.cpp; sourceTree = "<group>"; };
+		4DD8253C2114991E004A7368 /* Makefile.iOS_Sim */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.iOS_Sim; sourceTree = "<group>"; };
+		4DD8253D2114991E004A7368 /* vb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vb.cpp; sourceTree = "<group>"; };
+		4DD8253E2114991E004A7368 /* common.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.mk; sourceTree = "<group>"; };
+		4DD8253F2114991E004A7368 /* Makefile.linux */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.linux; sourceTree = "<group>"; };
+		4DD825402114991E004A7368 /* pdu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pdu.cpp; sourceTree = "<group>"; };
+		4DD825412114991E004A7368 /* Makefile.solaris */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.solaris; sourceTree = "<group>"; };
+		4DD825422114991E004A7368 /* notifyqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notifyqueue.cpp; sourceTree = "<group>"; };
+		4DD825432114991E004A7368 /* ctr64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctr64.cpp; sourceTree = "<group>"; };
+		4DD825442114991E004A7368 /* Makefile.iOS_armv7 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.iOS_armv7; sourceTree = "<group>"; };
+		4DD825452114991E004A7368 /* sha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha.cpp; sourceTree = "<group>"; };
+		4DD825462114991E004A7368 /* Makefile.iOS_armv6 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.iOS_armv6; sourceTree = "<group>"; };
+		4DD825472114991E004A7368 /* IPv6Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IPv6Utility.cpp; sourceTree = "<group>"; };
+		4DD825482114991E004A7368 /* Makefile.aix5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.aix5; sourceTree = "<group>"; };
+		4DD825492114991E004A7368 /* eventlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventlist.cpp; sourceTree = "<group>"; };
+		4DD8254A2114991E004A7368 /* counter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = counter.cpp; sourceTree = "<group>"; };
+		4DD8254B2114991E004A7368 /* msec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msec.cpp; sourceTree = "<group>"; };
+		4DD8254C2114991E004A7368 /* Makefile.OSX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.OSX; sourceTree = "<group>"; };
+		4DD8254D2114991E004A7368 /* Makefile.gcc_solaris */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.gcc_solaris; sourceTree = "<group>"; };
+		4DD8254E2114991E004A7368 /* address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = address.cpp; sourceTree = "<group>"; };
+		4DD8254F2114991E004A7368 /* target.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = target.cpp; sourceTree = "<group>"; };
+		4DD825502114991E004A7368 /* Makefile.dunix */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.dunix; sourceTree = "<group>"; };
+		4DD825512114991E004A7368 /* timetick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timetick.cpp; sourceTree = "<group>"; };
+		4DD825522114991E004A7368 /* octet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = octet.cpp; sourceTree = "<group>"; };
+		4DD825532114991E004A7368 /* auth_priv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auth_priv.cpp; sourceTree = "<group>"; };
+		4DD825542114991E004A7368 /* integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = integer.cpp; sourceTree = "<group>"; };
+		4DD825552114991E004A7368 /* usm_v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usm_v3.cpp; sourceTree = "<group>"; };
+		4DD825562114991E004A7368 /* reentrant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reentrant.cpp; sourceTree = "<group>"; };
+		4DD825572114991E004A7368 /* asn1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asn1.cpp; sourceTree = "<group>"; };
+		4DD825582114991E004A7368 /* eventlistholder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventlistholder.cpp; sourceTree = "<group>"; };
+		4DD825592114991E004A7368 /* mp_v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mp_v3.cpp; sourceTree = "<group>"; };
+		4DD8255A2114991E004A7368 /* uxsnmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uxsnmp.cpp; sourceTree = "<group>"; };
+		4DD8255B2114991E004A7368 /* Mobile SNMP++-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mobile SNMP++-Prefix.pch"; sourceTree = "<group>"; };
+		4DD825862114A3F7004A7368 /* SNMPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNMPController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD8241621147F19004A7368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2139B92119E9E100163148 /* MMLanScan */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139BA2119E9E100163148 /* Misc */,
+				4D2139C52119E9E100163148 /* External Libs */,
+				4D2139D02119E9E100163148 /* Objects */,
+				4D2139D32119E9E100163148 /* Data */,
+			);
+			path = MMLanScan;
+			sourceTree = "<group>";
+		};
+		4D2139BA2119E9E100163148 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139BB2119E9E100163148 /* MMLANScanner.m */,
+				4D2139BC2119E9E100163148 /* NetworkCalculator.h */,
+				4D2139BD2119E9E100163148 /* MACOperation.h */,
+				4D2139BE2119E9E100163148 /* LANProperties.h */,
+				4D2139BF2119E9E100163148 /* PingOperation.h */,
+				4D2139C02119E9E100163148 /* MACOperation.m */,
+				4D2139C12119E9E100163148 /* NetworkCalculator.m */,
+				4D2139C22119E9E100163148 /* MMLANScanner.h */,
+				4D2139C32119E9E100163148 /* LANProperties.m */,
+				4D2139C42119E9E100163148 /* PingOperation.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		4D2139C52119E9E100163148 /* External Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139C62119E9E100163148 /* MacFinder */,
+				4D2139CD2119E9E100163148 /* SimplePing */,
+			);
+			path = "External Libs";
+			sourceTree = "<group>";
+		};
+		4D2139C62119E9E100163148 /* MacFinder */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139C72119E9E100163148 /* MacFinder.m */,
+				4D2139C82119E9E100163148 /* Network Headers */,
+				4D2139CC2119E9E100163148 /* MacFinder.h */,
+			);
+			path = MacFinder;
+			sourceTree = "<group>";
+		};
+		4D2139C82119E9E100163148 /* Network Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139C92119E9E100163148 /* route.h */,
+				4D2139CA2119E9E100163148 /* if_ether.h */,
+				4D2139CB2119E9E100163148 /* if_arp.h */,
+			);
+			path = "Network Headers";
+			sourceTree = "<group>";
+		};
+		4D2139CD2119E9E100163148 /* SimplePing */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139CE2119E9E100163148 /* SimplePing.h */,
+				4D2139CF2119E9E100163148 /* SimplePing.m */,
+			);
+			path = SimplePing;
+			sourceTree = "<group>";
+		};
+		4D2139D02119E9E100163148 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139D12119E9E100163148 /* MMDevice.m */,
+				4D2139D22119E9E100163148 /* MMDevice.h */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		4D2139D32119E9E100163148 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139D42119E9E100163148 /* data.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4DD8241021147F19004A7368 = {
+			isa = PBXGroup;
+			children = (
+				4DD8241B21147F19004A7368 /* ShahtajNetSecTest */,
+				4DD8241A21147F19004A7368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD8241A21147F19004A7368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8241921147F19004A7368 /* ShahtajNetSecTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD8241B21147F19004A7368 /* ShahtajNetSecTest */ = {
+			isa = PBXGroup;
+			children = (
+				4D2139B92119E9E100163148 /* MMLanScan */,
+				4DD8250A2114991E004A7368 /* Mobile SNMP++ */,
+				4DD8243F21149737004A7368 /* XIS_SNMPDefinitions.h */,
+				4DD8243D21149701004A7368 /* XISMobile_SNMP_PP.mm */,
+				4DD8243B211496ED004A7368 /* XISMobile_SNMP_PP.h */,
+				4DD8243521148032004A7368 /* lib */,
+				4DD8243121148011004A7368 /* StaticSnmpFinalLib */,
+				4DD8241C21147F19004A7368 /* AppDelegate.swift */,
+				4D1EBFA1211EC7A200F1B648 /* DatabaseCalls.swift */,
+				4D2139DE2119EAE300163148 /* LanScannerSetup_VC.swift */,
+				4DD825862114A3F7004A7368 /* SNMPController.swift */,
+				4DD8241E21147F19004A7368 /* ViewController.swift */,
+				4DD8242021147F19004A7368 /* Main.storyboard */,
+				4DD8242621147F1A004A7368 /* Assets.xcassets */,
+				4DD8242821147F1A004A7368 /* LaunchScreen.storyboard */,
+				4DD8242B21147F1A004A7368 /* Info.plist */,
+				4DD8242321147F19004A7368 /* ShahtajNetSecTest.xcdatamodeld */,
+				4DD8243C21149700004A7368 /* ShahtajNetSecTest-Bridging-Header.h */,
+			);
+			path = ShahtajNetSecTest;
+			sourceTree = "<group>";
+		};
+		4DD8243521148032004A7368 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				4DD824332114802C004A7368 /* libStaticSnmpFinalLib.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		4DD8250A2114991E004A7368 /* Mobile SNMP++ */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8250B2114991E004A7368 /* include */,
+				4DD825312114991E004A7368 /* src */,
+				4DD8255B2114991E004A7368 /* Mobile SNMP++-Prefix.pch */,
+			);
+			name = "Mobile SNMP++";
+			path = "../../../../Downloads/Mobile SNMP++";
+			sourceTree = "<group>";
+		};
+		4DD8250B2114991E004A7368 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8250C2114991E004A7368 /* snmp_pp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4DD8250C2114991E004A7368 /* snmp_pp */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8250D2114991E004A7368 /* oid.h */,
+				4DD8250E2114991E004A7368 /* vb.h */,
+				4DD8250F2114991E004A7368 /* gauge.h */,
+				4DD825102114991E004A7368 /* notifyqueue.h */,
+				4DD825112114991E004A7368 /* pdu.h */,
+				4DD825122114991E004A7368 /* ctr64.h */,
+				4DD825132114991E004A7368 /* counter.h */,
+				4DD825142114991E004A7368 /* sha.h */,
+				4DD825152114991E004A7368 /* asn1.h */,
+				4DD825162114991E004A7368 /* IPv6Utility.h */,
+				4DD825172114991E004A7368 /* md5.h */,
+				4DD825182114991E004A7368 /* address.h */,
+				4DD825192114991E004A7368 /* uxsnmp.h */,
+				4DD8251A2114991E004A7368 /* smival.h */,
+				4DD8251B2114991E004A7368 /* timetick.h */,
+				4DD8251C2114991E004A7368 /* config_snmp_pp.h */,
+				4DD8251D2114991E004A7368 /* reentrant.h */,
+				4DD8251E2114991E004A7368 /* collect.h */,
+				4DD8251F2114991E004A7368 /* smi.h */,
+				4DD825202114991E004A7368 /* log.h */,
+				4DD825212114991E004A7368 /* snmperrs.h */,
+				4DD825222114991E004A7368 /* target.h */,
+				4DD825232114991E004A7368 /* oid_def.h */,
+				4DD825242114991E004A7368 /* octet.h */,
+				4DD825252114991E004A7368 /* snmpmsg.h */,
+				4DD825262114991E004A7368 /* snmp_pp.h */,
+				4DD825272114991E004A7368 /* mp_v3.h */,
+				4DD825282114991E004A7368 /* eventlist.h */,
+				4DD825292114991E004A7368 /* auth_priv.h */,
+				4DD8252A2114991E004A7368 /* usm_v3.h */,
+				4DD8252B2114991E004A7368 /* integer.h */,
+				4DD8252C2114991E004A7368 /* msec.h */,
+				4DD8252D2114991E004A7368 /* msgqueue.h */,
+				4DD8252E2114991E004A7368 /* eventlistholder.h */,
+				4DD8252F2114991E004A7368 /* v3.h */,
+				4DD825302114991E004A7368 /* idea.h */,
+			);
+			path = snmp_pp;
+			sourceTree = "<group>";
+		};
+		4DD825312114991E004A7368 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4DD825322114991E004A7368 /* Makefile.hpux11 */,
+				4DD825332114991E004A7368 /* msgqueue.cpp */,
+				4DD825342114991E004A7368 /* v3.cpp */,
+				4DD825352114991E004A7368 /* gauge.cpp */,
+				4DD825362114991E004A7368 /* oid.cpp */,
+				4DD825372114991E004A7368 /* md5c.cpp */,
+				4DD825382114991E004A7368 /* Makefile.bcc */,
+				4DD825392114991E004A7368 /* log.cpp */,
+				4DD8253A2114991E004A7368 /* snmpmsg.cpp */,
+				4DD8253B2114991E004A7368 /* idea.cpp */,
+				4DD8253C2114991E004A7368 /* Makefile.iOS_Sim */,
+				4DD8253D2114991E004A7368 /* vb.cpp */,
+				4DD8253E2114991E004A7368 /* common.mk */,
+				4DD8253F2114991E004A7368 /* Makefile.linux */,
+				4DD825402114991E004A7368 /* pdu.cpp */,
+				4DD825412114991E004A7368 /* Makefile.solaris */,
+				4DD825422114991E004A7368 /* notifyqueue.cpp */,
+				4DD825432114991E004A7368 /* ctr64.cpp */,
+				4DD825442114991E004A7368 /* Makefile.iOS_armv7 */,
+				4DD825452114991E004A7368 /* sha.cpp */,
+				4DD825462114991E004A7368 /* Makefile.iOS_armv6 */,
+				4DD825472114991E004A7368 /* IPv6Utility.cpp */,
+				4DD825482114991E004A7368 /* Makefile.aix5 */,
+				4DD825492114991E004A7368 /* eventlist.cpp */,
+				4DD8254A2114991E004A7368 /* counter.cpp */,
+				4DD8254B2114991E004A7368 /* msec.cpp */,
+				4DD8254C2114991E004A7368 /* Makefile.OSX */,
+				4DD8254D2114991E004A7368 /* Makefile.gcc_solaris */,
+				4DD8254E2114991E004A7368 /* address.cpp */,
+				4DD8254F2114991E004A7368 /* target.cpp */,
+				4DD825502114991E004A7368 /* Makefile.dunix */,
+				4DD825512114991E004A7368 /* timetick.cpp */,
+				4DD825522114991E004A7368 /* octet.cpp */,
+				4DD825532114991E004A7368 /* auth_priv.cpp */,
+				4DD825542114991E004A7368 /* integer.cpp */,
+				4DD825552114991E004A7368 /* usm_v3.cpp */,
+				4DD825562114991E004A7368 /* reentrant.cpp */,
+				4DD825572114991E004A7368 /* asn1.cpp */,
+				4DD825582114991E004A7368 /* eventlistholder.cpp */,
+				4DD825592114991E004A7368 /* mp_v3.cpp */,
+				4DD8255A2114991E004A7368 /* uxsnmp.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD8241821147F19004A7368 /* ShahtajNetSecTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD8242E21147F1A004A7368 /* Build configuration list for PBXNativeTarget "ShahtajNetSecTest" */;
+			buildPhases = (
+				4DD8241521147F19004A7368 /* Sources */,
+				4DD8241621147F19004A7368 /* Frameworks */,
+				4DD8241721147F19004A7368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShahtajNetSecTest;
+			productName = ShahtajNetSecTest;
+			productReference = 4DD8241921147F19004A7368 /* ShahtajNetSecTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD8241121147F19004A7368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Shahtaj Khalid";
+				TargetAttributes = {
+					4DD8241821147F19004A7368 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 4DD8241421147F19004A7368 /* Build configuration list for PBXProject "ShahtajNetSecTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DD8241021147F19004A7368;
+			productRefGroup = 4DD8241A21147F19004A7368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD8241821147F19004A7368 /* ShahtajNetSecTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD8241721147F19004A7368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD825762114991E004A7368 /* Makefile.OSX in Resources */,
+				4DD825682114991E004A7368 /* common.mk in Resources */,
+				4DD8257A2114991E004A7368 /* Makefile.dunix in Resources */,
+				4DD8256E2114991E004A7368 /* Makefile.iOS_armv7 in Resources */,
+				4DD825662114991E004A7368 /* Makefile.iOS_Sim in Resources */,
+				4D2139DD2119E9E100163148 /* data.plist in Resources */,
+				4DD8242A21147F1A004A7368 /* LaunchScreen.storyboard in Resources */,
+				4DD8243221148011004A7368 /* StaticSnmpFinalLib in Resources */,
+				4DD8242721147F1A004A7368 /* Assets.xcassets in Resources */,
+				4DD825692114991E004A7368 /* Makefile.linux in Resources */,
+				4DD8255C2114991E004A7368 /* Makefile.hpux11 in Resources */,
+				4DD825702114991E004A7368 /* Makefile.iOS_armv6 in Resources */,
+				4DD825772114991E004A7368 /* Makefile.gcc_solaris in Resources */,
+				4DD825622114991E004A7368 /* Makefile.bcc in Resources */,
+				4DD825722114991E004A7368 /* Makefile.aix5 in Resources */,
+				4DD8242221147F19004A7368 /* Main.storyboard in Resources */,
+				4DD8256B2114991E004A7368 /* Makefile.solaris in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD8241521147F19004A7368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD825672114991E004A7368 /* vb.cpp in Sources */,
+				4DD8243E21149701004A7368 /* XISMobile_SNMP_PP.mm in Sources */,
+				4DD8241F21147F19004A7368 /* ViewController.swift in Sources */,
+				4D2139D62119E9E100163148 /* MACOperation.m in Sources */,
+				4DD8256F2114991E004A7368 /* sha.cpp in Sources */,
+				4DD825742114991E004A7368 /* counter.cpp in Sources */,
+				4DD825612114991E004A7368 /* md5c.cpp in Sources */,
+				4DD825642114991E004A7368 /* snmpmsg.cpp in Sources */,
+				4DD8255E2114991E004A7368 /* v3.cpp in Sources */,
+				4DD825812114991E004A7368 /* asn1.cpp in Sources */,
+				4D1EBFA2211EC7A200F1B648 /* DatabaseCalls.swift in Sources */,
+				4DD825792114991E004A7368 /* target.cpp in Sources */,
+				4D2139D92119E9E100163148 /* PingOperation.m in Sources */,
+				4D2139DF2119EAE300163148 /* LanScannerSetup_VC.swift in Sources */,
+				4DD825782114991E004A7368 /* address.cpp in Sources */,
+				4D2139DC2119E9E100163148 /* MMDevice.m in Sources */,
+				4DD8255D2114991E004A7368 /* msgqueue.cpp in Sources */,
+				4DD825732114991E004A7368 /* eventlist.cpp in Sources */,
+				4DD8257F2114991E004A7368 /* usm_v3.cpp in Sources */,
+				4DD8257D2114991E004A7368 /* auth_priv.cpp in Sources */,
+				4DD825602114991E004A7368 /* oid.cpp in Sources */,
+				4DD8257C2114991E004A7368 /* octet.cpp in Sources */,
+				4D2139D52119E9E100163148 /* MMLANScanner.m in Sources */,
+				4DD8256C2114991E004A7368 /* notifyqueue.cpp in Sources */,
+				4DD8241D21147F19004A7368 /* AppDelegate.swift in Sources */,
+				4DD825652114991E004A7368 /* idea.cpp in Sources */,
+				4D2139DA2119E9E100163148 /* MacFinder.m in Sources */,
+				4DD825752114991E004A7368 /* msec.cpp in Sources */,
+				4DD825802114991E004A7368 /* reentrant.cpp in Sources */,
+				4DD8255F2114991E004A7368 /* gauge.cpp in Sources */,
+				4DD825822114991E004A7368 /* eventlistholder.cpp in Sources */,
+				4DD825712114991E004A7368 /* IPv6Utility.cpp in Sources */,
+				4DD825872114A3F7004A7368 /* SNMPController.swift in Sources */,
+				4DD825632114991E004A7368 /* log.cpp in Sources */,
+				4DD8257E2114991E004A7368 /* integer.cpp in Sources */,
+				4DD8256D2114991E004A7368 /* ctr64.cpp in Sources */,
+				4DD825842114991E004A7368 /* uxsnmp.cpp in Sources */,
+				4DD8242521147F19004A7368 /* ShahtajNetSecTest.xcdatamodeld in Sources */,
+				4DD8256A2114991E004A7368 /* pdu.cpp in Sources */,
+				4D2139D82119E9E100163148 /* LANProperties.m in Sources */,
+				4DD8257B2114991E004A7368 /* timetick.cpp in Sources */,
+				4D2139D72119E9E100163148 /* NetworkCalculator.m in Sources */,
+				4D2139DB2119E9E100163148 /* SimplePing.m in Sources */,
+				4DD825832114991E004A7368 /* mp_v3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DD8242021147F19004A7368 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD8242121147F19004A7368 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD8242821147F1A004A7368 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD8242921147F1A004A7368 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD8242C21147F1A004A7368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DD8242D21147F1A004A7368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD8242F21147F1A004A7368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92UUNTWLT5;
+				INFOPLIST_FILE = ShahtajNetSecTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShahtajNetSecTest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigiInfoSys.ShahtajNetSecTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShahtajNetSecTest/ShahtajNetSecTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DD8243021147F1A004A7368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92UUNTWLT5;
+				INFOPLIST_FILE = ShahtajNetSecTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShahtajNetSecTest",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DigiInfoSys.ShahtajNetSecTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShahtajNetSecTest/ShahtajNetSecTest-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD8241421147F19004A7368 /* Build configuration list for PBXProject "ShahtajNetSecTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD8242C21147F1A004A7368 /* Debug */,
+				4DD8242D21147F1A004A7368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD8242E21147F1A004A7368 /* Build configuration list for PBXNativeTarget "ShahtajNetSecTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD8242F21147F1A004A7368 /* Debug */,
+				4DD8243021147F1A004A7368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DD8242321147F19004A7368 /* ShahtajNetSecTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DD8242421147F19004A7368 /* ShahtajNetSecTest.xcdatamodel */,
+			);
+			currentVersion = 4DD8242421147F19004A7368 /* ShahtajNetSecTest.xcdatamodel */;
+			path = ShahtajNetSecTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DD8241121147F19004A7368 /* Project object */;
+}
